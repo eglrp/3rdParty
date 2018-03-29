@@ -1,0 +1,429 @@
+﻿生成启动时间为 2016/1/4 11:19:41。
+     1>项目“D:\1-zengWorkspace\1-bundler_streetViewCode\absolute_orientation2015.4.3-加入sba\absolute_orientation2015.4.3-加入sba\lib\f2c\f2c.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Debug\f2c.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TC /errorReport:prompt abort_.c arithchk.c backspac.c cabs.c close.c ctype.c d_abs.c d_acos.c d_asin.c d_atan.c d_atn2.c d_cnjg.c d_cos.c d_cosh.c d_dim.c d_exp.c d_imag.c d_int.c d_lg10.c d_log.c d_mod.c d_nint.c d_prod.c d_sign.c d_sin.c d_sinh.c d_sqrt.c d_tan.c d_tanh.c derf_.c derfc_.c dfe.c dolio.c dtime_.c due.c ef1asc_.c ef1cmc_.c endfile.c erf_.c erfc_.c err.c etime_.c exit_.c f77_aloc.c f77vers.c fmt.c fmtlib.c ftell_.c getarg_.c getenv_.c h_abs.c h_dim.c h_dnnt.c h_indx.c h_len.c h_mod.c h_nint.c h_sign.c hl_ge.c hl_gt.c hl_le.c hl_lt.c i77vers.c i_abs.c i_dim.c i_dnnt.c i_indx.c i_len.c i_mod.c i_nint.c i_sign.c iargc_.c iio.c ilnw.c inquire.c l_ge.c l_gt.c l_le.c l_lt.c lbitbits.c lbitshft.c lread.c lwrite.c main.c open.c pow_ci.c pow_dd.c pow_di.c pow_hh.c pow_ii.c pow_ri.c pow_zi.c pow_zz.c r_abs.c r_acos.c r_asin.c r_atan.c r_atn2.c r_cnjg.c r_cos.c r_cosh.c r_dim.c r_exp.c r_imag.c r_int.c r_lg10.c r_log.c r_mod.c r_nint.c r_sign.c r_sin.c r_sinh.c r_sqrt.c r_tan.c r_tanh.c rdfmt.c rewind.c rsfe.c rsli.c rsne.c s_cat.c s_cmp.c s_copy.c s_paus.c s_rnge.c s_stop.c sfe.c sig_die.c signal_.c signbit.c sue.c system_.c typesize.c uio.c uninit.c util.c wref.c wrtfmt.c wsfe.c wsle.c wsne.c xwsne.c z_abs.c z_cos.c z_div.c z_exp.c z_log.c z_sin.c z_sqrt.c
+         z_sqrt.c
+         z_sin.c
+         z_log.c
+         z_exp.c
+         z_div.c
+         z_cos.c
+         z_abs.c
+         xwsne.c
+         wsne.c
+         wsle.c
+         wsfe.c
+         wrtfmt.c
+     1>wrtfmt.c(96): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+         wref.c
+     1>wref.c(90): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>wref.c(99): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>wref.c(117): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>wref.c(119): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>wref.c(246): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         util.c
+         uninit.c
+         uio.c
+         typesize.c
+         system_.c
+         sue.c
+         signbit.c
+         Generating Code...
+         Compiling...
+         signal_.c
+         sig_die.c
+         sfe.c
+         s_stop.c
+         s_rnge.c
+         s_paus.c
+     1>s_paus.c(65): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(723) : 参见“fileno”的声明
+     1>s_paus.c(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         s_copy.c
+         s_cmp.c
+         s_cat.c
+         rsne.c
+     1>rsne.c(71): warning C4273: “ungetc”: dll 链接不一致
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(345) : 参见“ungetc”的前一个定义
+         rsli.c
+         rsfe.c
+         rewind.c
+         rdfmt.c
+     1>rdfmt.c(70): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>rdfmt.c(71): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>rdfmt.c(93): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>rdfmt.c(382): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>rdfmt.c(389): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         r_tanh.c
+         r_tan.c
+         r_sqrt.c
+         r_sinh.c
+         r_sin.c
+         r_sign.c
+         Generating Code...
+         Compiling...
+         r_nint.c
+         r_mod.c
+         r_log.c
+         r_lg10.c
+         r_int.c
+         r_imag.c
+         r_exp.c
+         r_dim.c
+         r_cosh.c
+         r_cos.c
+         r_cnjg.c
+         r_atn2.c
+         r_atan.c
+         r_asin.c
+         r_acos.c
+         r_abs.c
+         pow_zz.c
+         pow_zi.c
+         pow_ri.c
+         pow_ii.c
+         Generating Code...
+         Compiling...
+         pow_hh.c
+         pow_di.c
+         pow_dd.c
+         pow_ci.c
+     1>pow_ci.c(21): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+     1>pow_ci.c(22): warning C4244: “=”: 从“doublereal”转换到“real”，可能丢失数据
+         open.c
+     1>open.c(192): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>open.c(207): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _access. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(299) : 参见“access”的声明
+     1>open.c(219): warning C4996: 'tmpfile': This function or variable may be unsafe. Consider using tmpfile_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(338) : 参见“tmpfile”的声明
+     1>open.c(237): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _access. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(299) : 参见“access”的声明
+     1>open.c(246): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>open.c(252): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>open.c(255): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>open.c(256): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>open.c(258): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>open.c(287): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>open.c(291): warning C4267: “=”: 从“size_t”转换到“ftnlen”，可能丢失数据
+         main.c
+         lwrite.c
+     1>lwrite.c(137): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>lwrite.c(172): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+         lread.c
+     1>lread.c(79): warning C4273: “ungetc”: dll 链接不一致
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(345) : 参见“ungetc”的前一个定义
+     1>lread.c(183): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>lread.c(220): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>lread.c(751): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>lread.c(758): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+     1>lread.c(759): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+         lbitshft.c
+         lbitbits.c
+     1>lbitbits.c(47): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>lbitbits.c(51): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>lbitbits.c(60): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>lbitbits.c(64): warning C4554: “<<”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+         l_lt.c
+         l_le.c
+         l_gt.c
+         l_ge.c
+         inquire.c
+     1>inquire.c(35): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _access. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(299) : 参见“access”的声明
+     1>inquire.c(73): warning C4244: “=”: 从“__int64”转换到“ftnint”，可能丢失数据
+         ilnw.c
+         iio.c
+         iargc_.c
+         i_sign.c
+         i_nint.c
+         Generating Code...
+         Compiling...
+         i_mod.c
+         i_len.c
+         i_indx.c
+         i_dnnt.c
+         i_dim.c
+         i_abs.c
+         i77vers.c
+         hl_lt.c
+         hl_le.c
+         hl_gt.c
+         hl_ge.c
+         h_sign.c
+         h_nint.c
+         h_mod.c
+         h_len.c
+     1>h_len.c(12): warning C4244: “return”: 从“ftnlen”转换到“shortint”，可能丢失数据
+         h_indx.c
+         h_dnnt.c
+         h_dim.c
+         h_abs.c
+         getenv_.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(854): warning C4005: “max”: 宏重定义
+                 d:\1-zengworkspace\1-bundler_streetviewcode\absolute_orientation2015.4.3-加入sba\absolute_orientation2015.4.3-加入sba\lib\f2c\f2c.h(160) : 参见“max”的前一个定义
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(855): warning C4005: “min”: 宏重定义
+                 d:\1-zengworkspace\1-bundler_streetviewcode\absolute_orientation2015.4.3-加入sba\absolute_orientation2015.4.3-加入sba\lib\f2c\f2c.h(159) : 参见“min”的前一个定义
+     1>getenv_.c(42): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : 参见“getenv”的声明
+     1>getenv_.c(48): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>getenv_.c(50): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : 参见“getenv”的声明
+         Generating Code...
+         Compiling...
+         getarg_.c
+         ftell_.c
+         fmtlib.c
+     1>fmtlib.c(42): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+         fmt.c
+         f77vers.c
+         f77_aloc.c
+         exit_.c
+         etime_.c
+     1>etime_.c(46): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         err.c
+     1>err.c(221): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(249) : 参见“freopen”的声明
+     1>err.c(223): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(249) : 参见“freopen”的声明
+     1>err.c(257): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(249) : 参见“freopen”的声明
+     1>err.c(264): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(249) : 参见“freopen”的声明
+         erfc_.c
+         erf_.c
+         endfile.c
+     1>endfile.c(45): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>endfile.c(46): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>endfile.c(104): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>endfile.c(111): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>endfile.c(111): warning C4996: 'tmpfile': This function or variable may be unsafe. Consider using tmpfile_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(338) : 参见“tmpfile”的声明
+     1>endfile.c(123): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(249) : 参见“freopen”的声明
+     1>endfile.c(133): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         ef1cmc_.c
+         ef1asc_.c
+         due.c
+         dtime_.c
+     1>dtime_.c(47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         dolio.c
+         dfe.c
+         derfc_.c
+         derf_.c
+         Generating Code...
+         Compiling...
+         d_tanh.c
+         d_tan.c
+         d_sqrt.c
+         d_sinh.c
+         d_sin.c
+         d_sign.c
+         d_prod.c
+         d_nint.c
+         d_mod.c
+         d_log.c
+         d_lg10.c
+         d_int.c
+         d_imag.c
+         d_exp.c
+         d_dim.c
+         d_cosh.c
+         d_cos.c
+         d_cnjg.c
+         d_atn2.c
+         d_atan.c
+         Generating Code...
+         Compiling...
+         d_asin.c
+         d_acos.c
+         d_abs.c
+         ctype.c
+         close.c
+         cabs.c
+         backspac.c
+         arithchk.c
+         abort_.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\1-zengWorkspace\1-bundler_streetViewCode\absolute_orientation2015.4.3-加入sba\absolute_orientation2015.4.3-加入sba\x64\Debug\f2c.lib" /NOLOGO x64\Debug\abort_.obj
+         x64\Debug\arithchk.obj
+         x64\Debug\backspac.obj
+         x64\Debug\cabs.obj
+         x64\Debug\close.obj
+         x64\Debug\ctype.obj
+         x64\Debug\d_abs.obj
+         x64\Debug\d_acos.obj
+         x64\Debug\d_asin.obj
+         x64\Debug\d_atan.obj
+         x64\Debug\d_atn2.obj
+         x64\Debug\d_cnjg.obj
+         x64\Debug\d_cos.obj
+         x64\Debug\d_cosh.obj
+         x64\Debug\d_dim.obj
+         x64\Debug\d_exp.obj
+         x64\Debug\d_imag.obj
+         x64\Debug\d_int.obj
+         x64\Debug\d_lg10.obj
+         x64\Debug\d_log.obj
+         x64\Debug\d_mod.obj
+         x64\Debug\d_nint.obj
+         x64\Debug\d_prod.obj
+         x64\Debug\d_sign.obj
+         x64\Debug\d_sin.obj
+         x64\Debug\d_sinh.obj
+         x64\Debug\d_sqrt.obj
+         x64\Debug\d_tan.obj
+         x64\Debug\d_tanh.obj
+         x64\Debug\derf_.obj
+         x64\Debug\derfc_.obj
+         x64\Debug\dfe.obj
+         x64\Debug\dolio.obj
+         x64\Debug\dtime_.obj
+         x64\Debug\due.obj
+         x64\Debug\ef1asc_.obj
+         x64\Debug\ef1cmc_.obj
+         x64\Debug\endfile.obj
+         x64\Debug\erf_.obj
+         x64\Debug\erfc_.obj
+         x64\Debug\err.obj
+         x64\Debug\etime_.obj
+         x64\Debug\exit_.obj
+         x64\Debug\f77_aloc.obj
+         x64\Debug\f77vers.obj
+         x64\Debug\fmt.obj
+         x64\Debug\fmtlib.obj
+         x64\Debug\ftell_.obj
+         x64\Debug\getarg_.obj
+         x64\Debug\getenv_.obj
+         x64\Debug\h_abs.obj
+         x64\Debug\h_dim.obj
+         x64\Debug\h_dnnt.obj
+         x64\Debug\h_indx.obj
+         x64\Debug\h_len.obj
+         x64\Debug\h_mod.obj
+         x64\Debug\h_nint.obj
+         x64\Debug\h_sign.obj
+         x64\Debug\hl_ge.obj
+         x64\Debug\hl_gt.obj
+         x64\Debug\hl_le.obj
+         x64\Debug\hl_lt.obj
+         x64\Debug\i77vers.obj
+         x64\Debug\i_abs.obj
+         x64\Debug\i_dim.obj
+         x64\Debug\i_dnnt.obj
+         x64\Debug\i_indx.obj
+         x64\Debug\i_len.obj
+         x64\Debug\i_mod.obj
+         x64\Debug\i_nint.obj
+         x64\Debug\i_sign.obj
+         x64\Debug\iargc_.obj
+         x64\Debug\iio.obj
+         x64\Debug\ilnw.obj
+         x64\Debug\inquire.obj
+         x64\Debug\l_ge.obj
+         x64\Debug\l_gt.obj
+         x64\Debug\l_le.obj
+         x64\Debug\l_lt.obj
+         x64\Debug\lbitbits.obj
+         x64\Debug\lbitshft.obj
+         x64\Debug\lread.obj
+         x64\Debug\lwrite.obj
+         x64\Debug\main.obj
+         x64\Debug\open.obj
+         x64\Debug\pow_ci.obj
+         x64\Debug\pow_dd.obj
+         x64\Debug\pow_di.obj
+         x64\Debug\pow_hh.obj
+         x64\Debug\pow_ii.obj
+         x64\Debug\pow_ri.obj
+         x64\Debug\pow_zi.obj
+         x64\Debug\pow_zz.obj
+         x64\Debug\r_abs.obj
+         x64\Debug\r_acos.obj
+         x64\Debug\r_asin.obj
+         x64\Debug\r_atan.obj
+         x64\Debug\r_atn2.obj
+         x64\Debug\r_cnjg.obj
+         x64\Debug\r_cos.obj
+         x64\Debug\r_cosh.obj
+         x64\Debug\r_dim.obj
+         x64\Debug\r_exp.obj
+         x64\Debug\r_imag.obj
+         x64\Debug\r_int.obj
+         x64\Debug\r_lg10.obj
+         x64\Debug\r_log.obj
+         x64\Debug\r_mod.obj
+         x64\Debug\r_nint.obj
+         x64\Debug\r_sign.obj
+         x64\Debug\r_sin.obj
+         x64\Debug\r_sinh.obj
+         x64\Debug\r_sqrt.obj
+         x64\Debug\r_tan.obj
+         x64\Debug\r_tanh.obj
+         x64\Debug\rdfmt.obj
+         x64\Debug\rewind.obj
+         x64\Debug\rsfe.obj
+         x64\Debug\rsli.obj
+         x64\Debug\rsne.obj
+         x64\Debug\s_cat.obj
+         x64\Debug\s_cmp.obj
+         x64\Debug\s_copy.obj
+         x64\Debug\s_paus.obj
+         x64\Debug\s_rnge.obj
+         x64\Debug\s_stop.obj
+         x64\Debug\sfe.obj
+         x64\Debug\sig_die.obj
+         x64\Debug\signal_.obj
+         x64\Debug\signbit.obj
+         x64\Debug\sue.obj
+         x64\Debug\system_.obj
+         x64\Debug\typesize.obj
+         x64\Debug\uio.obj
+         x64\Debug\uninit.obj
+         x64\Debug\util.obj
+         x64\Debug\wref.obj
+         x64\Debug\wrtfmt.obj
+         x64\Debug\wsfe.obj
+         x64\Debug\wsle.obj
+         x64\Debug\wsne.obj
+         x64\Debug\xwsne.obj
+         x64\Debug\z_abs.obj
+         x64\Debug\z_cos.obj
+         x64\Debug\z_div.obj
+         x64\Debug\z_exp.obj
+         x64\Debug\z_log.obj
+         x64\Debug\z_sin.obj
+         x64\Debug\z_sqrt.obj
+     1>arithchk.obj : warning LNK4006: main 已在 main.obj 中定义；已忽略第二个定义
+         f2c.vcxproj -> D:\1-zengWorkspace\1-bundler_streetViewCode\absolute_orientation2015.4.3-加入sba\absolute_orientation2015.4.3-加入sba\x64\Debug\f2c.lib
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\f2c.unsuccessfulbuild”。
+         正在对“x64\Debug\f2c.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\1-zengWorkspace\1-bundler_streetViewCode\absolute_orientation2015.4.3-加入sba\absolute_orientation2015.4.3-加入sba\lib\f2c\f2c.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.60
